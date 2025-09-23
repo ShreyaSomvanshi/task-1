@@ -17,7 +17,7 @@ nav{
     justify-content:space-between;
     flex-wrap: wrap;
 }
-li{
+nav ul li{
     display:inline-block;
     margin-left: 3;
 }
@@ -35,17 +35,7 @@ section{
 }
 .header-text h1{
     font-size: 60px;
-}
-.skills  div{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 50px;
-}
-img{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 50px;
-}
+} 
 span{
     display: block;
 }
@@ -55,4 +45,10 @@ p{
 }
 h2{
     font-size: 30px;
+}
+footer{
+    background-color: #f8f8f8;
+}
+section ul li{
+    font-size: 20px;
 }
