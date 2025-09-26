@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: poppins;
 }
 header{
     height: 100vh;
@@ -27,7 +28,6 @@ a{
 }
 section{
     background-color: #E8E7E3;
-;
 }
 .header-text{
     margin-top: 20%;
@@ -39,6 +39,7 @@ section{
 } 
 span{
     display: block;
+    color: #7b7b7b;
 }
 p{
     padding: 1%;
@@ -56,6 +57,8 @@ section ul li{
 .skills{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 2%;
 }
 form{
     display: flex;
@@ -63,6 +66,7 @@ form{
     justify-content: center;
     align-items: center;
     gap: 1vh;
+    padding-top: 2%;
 }
 input,textarea{
     width:50vw;
