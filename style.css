@@ -4,7 +4,7 @@
 }
 header{
     height: 100vh;
-    width:100%;
+    width:100vw;
     background-image: url(photos/background.png);
     background-size:cover;
 }
@@ -19,14 +19,15 @@ nav{
 }
 nav ul li{
     display:inline-block;
-    margin-left: 3;
+    margin-right: 20px;
 }
 a{
     color:black;
     font-size: 16px;
 }
 section{
-    background-color: #7B7B7B;
+    background-color: #F8F8F8;
+;
 }
 .header-text{
     margin-top: 20%;
@@ -47,8 +48,50 @@ h2{
     font-size: 30px;
 }
 footer{
-    background-color: #f8f8f8;
+    background-color: #7b7b7b;
 }
 section ul li{
     font-size: 20px;
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+input,textarea{
+    width:50vw;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border-color: #7b7b7b;
+}
+input[type="text"]{
+    height: 5vh;
+}
+input[type="submit"]{
+    width:25vw;
+    height: 2vw;
+}
+textarea{
+    height: 15vh;
+    border: 2px solid #7b7b7b;
+}
+input[type="submit"]:hover{
+    background-color: #7b7b7b;
+    color: white;
+    border-color: white;
+    border-width: 1%;
+}
+img{
+    width:300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.link{
+    background-color: #ffffff;
 }
