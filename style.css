@@ -4,9 +4,10 @@
     font-family: poppins;
 }
 header{
-    height: 100vh;
-    width:100%;
     background-image: url(photos/background.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size:cover;
 }
 .container{
@@ -25,6 +26,10 @@ nav ul li{
 a{
     color:black;
     font-size: 16px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 section{
     background-color: #E8E7E3;
@@ -69,7 +74,7 @@ form{
     padding-top: 2%;
 }
 input,textarea{
-    width:50vw;
+    width:65vw;
     border-radius: 4px;
     background-color: #ffffff;
     border-color: #7b7b7b;
@@ -82,7 +87,7 @@ input[type="submit"]{
     height: 2vw;
 }
 textarea{
-    height: 15vh;
+    height: 20vh;
     border: 2px solid #7b7b7b;
 }
 input[type="submit"]:hover{
@@ -96,9 +101,6 @@ img{
     height: 200px;
     border-radius: 10px;
 }
-.link{
-    padding:1% 1%;
-}
 .skill-grid{
     background-color: #ffffff;
     border-radius: 10px;
@@ -108,4 +110,10 @@ img{
 }
 section i{
     color: #7b7b7b;
+}
+section i:hover{
+    color: rgb(68, 128, 232);
+}
+.skill-grid:hover{
+    scale: 1.1;
 }
