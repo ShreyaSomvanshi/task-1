@@ -9,6 +9,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+            </script>
+        <script type="text/javascript">
+            (function(){
+            emailjs.init({
+        publicKey: "HSKGk0jccEW9UR7bT",
+      });
+   })();
+</script>
     </head>
     <body>
         <header>
@@ -95,17 +105,16 @@
         <section id="Contact" class="container">
             <h2>Contact me:</h2>
             <form>
-                <input type="text" placeholder="Name" required>
-                <input type="text" placeholder="E-Mail" required>
-                <textarea placeholder="Message" required></textarea>
+                <input type="text" placeholder="Name" id="name" required>
+                <input type="text" placeholder="Subject" id="subject" required>
+                <input type="text" placeholder="E-Mail" id="email"required>
+                <textarea placeholder="Message" id="Message" required></textarea>
                 <input type="submit">
             </form>
         </section>
         <footer>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            shreya24153081@akgec.ac.in
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-            Location: Uttar Pradesh,India</p>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true">shreya24153081akgec.ac.in</i>
         </footer>
     </body>
 </html>
