@@ -4,11 +4,22 @@
     font-family: poppins;
 }
 header{
-    background-image: url(photos/background.png);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
+    height: 10vh;
+}
+section .header-content{
+
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.header-image{
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
 .container{
     padding: 1% 10%;
@@ -38,16 +49,26 @@ section{
     margin-top: 20%;
     margin-bottom: 20%;
     font-size: 30px;
+    width:50%;
+}
+.img1 img{
+    height:80vh;
+    width:45vw;
 }
 .header-text h1{
     font-size: 60px;
+    padding-left:5%;
 } 
+.header-text p{
+    padding-left: 5%;
+}
 span{
     display: block;
     color: #7b7b7b;
 }
 p{
-    padding: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-size: 20px;
 }
 h2{
@@ -55,6 +76,7 @@ h2{
 }
 footer{
     background-color: #7b7b7b;
+    height: 7vh;
 }
 section ul li{
     font-size: 20px;
@@ -70,8 +92,9 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1vh;
+    gap: 3vh;
     padding-top: 2%;
+    padding-left:1%;
 }
 input,textarea{
     width:65vw;
@@ -81,22 +104,25 @@ input,textarea{
 }
 input[type="text"]{
     height: 5vh;
+    padding-left: 1%;
 }
 input[type="submit"]{
     width:25vw;
     height: 2vw;
+    background-color: #7b7b7b;
+    color: #ffffff;
+    border-color: white;
+
 }
 textarea{
     height: 20vh;
     border: 2px solid #7b7b7b;
+    padding-left: 1%;
 }
 input[type="submit"]:hover{
-    background-color: #7b7b7b;
-    color: white;
-    border-color: white;
     border-width: 1%;
 }
-img{
+.image img{
     width:300px;
     height: 200px;
     border-radius: 10px;
